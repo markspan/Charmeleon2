@@ -1,2 +1,8 @@
 .vs
 obj
+*.v2
+*.v2
+.vs/Charmeleon2/v17/Browse.VC.db
+.vs/ProjectEvaluation/charmeleon2.metadata.v7.bin
+.vs/ProjectEvaluation/charmeleon2.projects.v7.bin
+*.pdb

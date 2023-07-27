@@ -2,6 +2,7 @@ using Microsoft.VisualBasic.PowerPacks;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.Timers;
+using System.Xml.Serialization;
 
 namespace Charmeleon2
 {
@@ -260,13 +261,14 @@ namespace Charmeleon2
 
         private void loadSetup(String Filename)
         {
-            FileStream serializationStream = new FileStream(this.LoadHeadFileDialog.FileName, FileMode.Open);
-            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream fs = new (this.LoadHeadFileDialog.FileName, FileMode.Open);
+            XmlSerializer serializer = new (typeof(electrode.electrodeControl) );
+
             for (int i = 0; i < Electrodes.Length; i++)
             {
                 try
                 {
-                    //Electrodes[i].Data = formatter.Deserialize(serializationStream) as electrode.electrodeControl.mData;
+                    Electrodes[i].Data = serializer.Deserialize(fs) as electrode.electrodeControl.mData;
                     Electrodes[i].Invalidate();
                 }
                 catch (SerializationException exception2)
@@ -280,22 +282,22 @@ namespace Charmeleon2
                     return;
                 }
             }
-            serializationStream.Close();
+            fs.Close();
         }
 
         private void saveSetupToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FileStream serializationStream = null;
-            BinaryFormatter formatter = null;
+            FileStream fs = null;
+            XmlSerializer serializer = null;
             if (this.SaveHeadFileDialog.ShowDialog() == DialogResult.OK)
             {
-                serializationStream = new FileStream(this.SaveHeadFileDialog.FileName, FileMode.Create);
-                formatter = new BinaryFormatter();
+               fs = new (this.SaveHeadFileDialog.FileName, FileMode.Create);
+                serializer = new(typeof(electrode.electrodeControl));
                 for (int i = 0; i < Electrodes.Length; i++)
                 {
                     try
                     {
-                        //formatter.Serialize(serializationStream, Electrodes[i].Data);
+                        serializer.Serialize(fs, Electrodes[i].Data);
                     }
                     catch (SerializationException exception)
                     {
@@ -303,20 +305,18 @@ namespace Charmeleon2
                         throw;
                     }
                 }
-                serializationStream.Close();
+               fs.Close();
             }
         }
         private void Serialize()
         {
-            FileStream serializationStream = null;
-            BinaryFormatter formatter = null;
-            serializationStream = new FileStream("Default.head", FileMode.Create);
-            formatter = new BinaryFormatter();
+            FileStream fs = new ("Default.head", FileMode.Create);
+            XmlSerializer serializer = new(typeof(electrode.electrodeControl));
             for (int i = 0; i < Electrodes.Length; i++)
             {
                 try
                 {
-                    //formatter.Serialize(serializationStream, Electrodes[i].Data);
+                    serializer.Serialize(fs, Electrodes[i].Data);
                 }
                 catch (SerializationException exception)
                 {
@@ -324,7 +324,7 @@ namespace Charmeleon2
                     throw;
                 }
             }
-            serializationStream.Close();
+            fs.Close();
         }
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
