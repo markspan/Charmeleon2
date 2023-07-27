@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Charmeleon2/1.0.0": {
+        "dependencies": {
+          "Electrode": "1.0.0",
+          "RtDeviceDriver": "1.0.0",
+          "Electrode.Reference": "3.0.8608.27660",
+          "Microsoft.VisualBasic.PowerPacks.Vs": "10.0.0.0"
+        },
+        "runtime": {
+          "Charmeleon2.dll": {}
+        }
+      },
+      "Electrode/1.0.0": {
+        "runtime": {
+          "Electrode.dll": {}
+        }
+      },
+      "RtDeviceDriver/1.0.0": {
+        "runtime": {
+          "RtDeviceDriver.dll": {}
+        }
+      },
+      "Electrode.Reference/3.0.8608.27660": {
+        "runtime": {
+          "Electrode.dll": {
+            "assemblyVersion": "3.0.8608.27660",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.VisualBasic.PowerPacks.Vs/10.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualBasic.PowerPacks.Vs.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.40219.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Charmeleon2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Electrode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RtDeviceDriver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Electrode.Reference/3.0.8608.27660": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic.PowerPacks.Vs/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

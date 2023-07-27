@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Chameleon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="heat.map" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <Content Include="Chameleon.ico" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <EmbeddedResource Include="heat.map">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </EmbeddedResource>
+   </ItemGroup>
+
+   <ItemGroup>
+     <Folder Include="packages\" />
+   </ItemGroup>
+
+   <ItemGroup>
+     <ProjectReference Include="..\Libs\Charmeleon\Electrode\Electorode.vcxproj" />
+     <ProjectReference Include="..\Libs\Charmeleon\RtDeviceDriver\RtDeviceDriver.vcxproj" />
+   </ItemGroup>
+
+   <ItemGroup>
+     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+       <HintPath>packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+     </Reference>
+   </ItemGroup>
+
+</Project>
