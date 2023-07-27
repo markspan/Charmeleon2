@@ -23,3 +23,5 @@ C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\refint\
 C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\Charmeleon2.pdb
 C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\Charmeleon2.genruntimeconfig.cache
 C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\ref\Charmeleon2.dll
+C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\Charmeleon2.Libs.Charmeleon.Electrode.ElectrodeControl.resources
+C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Release\net7.0-windows\Charmeleon2.Libs.Charmeleon.Electrode.HeatMap.resources

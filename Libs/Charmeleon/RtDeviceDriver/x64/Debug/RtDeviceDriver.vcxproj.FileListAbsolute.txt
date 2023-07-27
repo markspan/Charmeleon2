@@ -1,0 +1,2 @@
+C:\Users\P154492\Documents\GitHub\Charmeleon\Charmeleon\RtDeviceDriver\x64\Debug\RtDeviceDriver.vcxproj.AssemblyReference.cache
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\x64\Debug\RtDeviceDriver.vcxproj.AssemblyReference.cache

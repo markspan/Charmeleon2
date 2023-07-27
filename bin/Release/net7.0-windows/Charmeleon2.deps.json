@@ -8,29 +8,18 @@
     ".NETCoreApp,Version=v7.0": {
       "Charmeleon2/1.0.0": {
         "dependencies": {
-          "Electrode": "1.0.0",
-          "RtDeviceDriver": "1.0.0",
-          "Electrode.Reference": "3.0.8608.27658",
-          "Microsoft.VisualBasic.PowerPacks.Vs": "10.0.0.0"
+          "Electrode": "3.0.8608.28117",
+          "Microsoft.VisualBasic.PowerPacks.Vs": "10.0.0.0",
+          "RtDeviceDriver": "1.0.8608.28117"
         },
         "runtime": {
           "Charmeleon2.dll": {}
         }
       },
-      "Electrode/1.0.0": {
-        "runtime": {
-          "Electrode.dll": {}
-        }
-      },
-      "RtDeviceDriver/1.0.0": {
-        "runtime": {
-          "RtDeviceDriver.dll": {}
-        }
-      },
-      "Electrode.Reference/3.0.8608.27658": {
+      "Electrode/3.0.8608.28117": {
         "runtime": {
           "Electrode.dll": {
-            "assemblyVersion": "3.0.8608.27658",
+            "assemblyVersion": "3.0.8608.28117",
             "fileVersion": "0.0.0.0"
           }
         }
@@ -42,6 +31,14 @@
             "fileVersion": "10.0.40219.1"
           }
         }
+      },
+      "RtDeviceDriver/1.0.8608.28117": {
+        "runtime": {
+          "RtDeviceDriver.dll": {
+            "assemblyVersion": "1.0.8608.28117",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -51,22 +48,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Electrode/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "RtDeviceDriver/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Electrode.Reference/3.0.8608.27658": {
+    "Electrode/3.0.8608.28117": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "Microsoft.VisualBasic.PowerPacks.Vs/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RtDeviceDriver/1.0.8608.28117": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

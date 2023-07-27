@@ -1,0 +1,76 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  Feature.cpp
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(335,1): warning C4005: 'REG_NONE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23027,1): message : see previous definition of 'REG_NONE'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(336,1): warning C4005: 'REG_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23028,1): message : see previous definition of 'REG_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(337,1): warning C4005: 'REG_EXPAND_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23029,1): message : see previous definition of 'REG_EXPAND_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(339,1): warning C4005: 'REG_BINARY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23031,1): message : see previous definition of 'REG_BINARY'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(340,1): warning C4005: 'REG_DWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23032,1): message : see previous definition of 'REG_DWORD'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(341,1): warning C4005: 'REG_DWORD_LITTLE_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23033,1): message : see previous definition of 'REG_DWORD_LITTLE_ENDIAN'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(342,1): warning C4005: 'REG_DWORD_BIG_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23034,1): message : see previous definition of 'REG_DWORD_BIG_ENDIAN'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(343,1): warning C4005: 'REG_LINK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23035,1): message : see previous definition of 'REG_LINK'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(344,1): warning C4005: 'REG_MULTI_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23036,1): message : see previous definition of 'REG_MULTI_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(345,1): warning C4005: 'REG_RESOURCE_LIST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23037,1): message : see previous definition of 'REG_RESOURCE_LIST'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(346,1): warning C4005: 'REG_FULL_RESOURCE_DESCRIPTOR': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23038,1): message : see previous definition of 'REG_FULL_RESOURCE_DESCRIPTOR'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(347,1): warning C4005: 'REG_RESOURCE_REQUIREMENTS_LIST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23039,1): message : see previous definition of 'REG_RESOURCE_REQUIREMENTS_LIST'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(348,1): warning C4005: 'REG_QWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23040,1): message : see previous definition of 'REG_QWORD'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(349,1): warning C4005: 'REG_QWORD_LITTLE_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23041,1): message : see previous definition of 'REG_QWORD_LITTLE_ENDIAN'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(549,30): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const LPTSTR'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(549,30): message : consider using '%ls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(549,30): message : consider using '%lls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(549,30): message : consider using '%Ls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(549,30): message : consider using '%ws' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(552,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'LPTSTR'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(552,11): message : consider using '%ls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(552,11): message : consider using '%lls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(552,11): message : consider using '%Ls' in the format string
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\Feature.cpp(552,11): message : consider using '%ws' in the format string
+  RTDevice.cpp
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(335,1): warning C4005: 'REG_NONE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23027,1): message : see previous definition of 'REG_NONE'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(336,1): warning C4005: 'REG_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23028,1): message : see previous definition of 'REG_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(337,1): warning C4005: 'REG_EXPAND_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23029,1): message : see previous definition of 'REG_EXPAND_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(339,1): warning C4005: 'REG_BINARY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23031,1): message : see previous definition of 'REG_BINARY'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(340,1): warning C4005: 'REG_DWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23032,1): message : see previous definition of 'REG_DWORD'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(341,1): warning C4005: 'REG_DWORD_LITTLE_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23033,1): message : see previous definition of 'REG_DWORD_LITTLE_ENDIAN'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(342,1): warning C4005: 'REG_DWORD_BIG_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23034,1): message : see previous definition of 'REG_DWORD_BIG_ENDIAN'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(343,1): warning C4005: 'REG_LINK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23035,1): message : see previous definition of 'REG_LINK'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(344,1): warning C4005: 'REG_MULTI_SZ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23036,1): message : see previous definition of 'REG_MULTI_SZ'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(345,1): warning C4005: 'REG_RESOURCE_LIST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23037,1): message : see previous definition of 'REG_RESOURCE_LIST'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(346,1): warning C4005: 'REG_FULL_RESOURCE_DESCRIPTOR': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23038,1): message : see previous definition of 'REG_FULL_RESOURCE_DESCRIPTOR'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(347,1): warning C4005: 'REG_RESOURCE_REQUIREMENTS_LIST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23039,1): message : see previous definition of 'REG_RESOURCE_REQUIREMENTS_LIST'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(348,1): warning C4005: 'REG_QWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23040,1): message : see previous definition of 'REG_QWORD'
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\SADIO.H(349,1): warning C4005: 'REG_QWORD_LITTLE_ENDIAN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(23041,1): message : see previous definition of 'REG_QWORD_LITTLE_ENDIAN'
+  RtDeviceDriver.cpp
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\RtDeviceDriver.h(135,22): warning C4101: 'e': unreferenced local variable
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\RtDeviceDriver\RtDeviceDriver.h(195,37): warning C4101: 'e': unreferenced local variable
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  RtDeviceDriver.vcxproj -> C:\Users\P154492\Documents\GitHub\Charmeleon2\Release\RtDeviceDriver.dll

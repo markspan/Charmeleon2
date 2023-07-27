@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "x86" and the processor architecture of the reference "RtDeviceDriver", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+cl : command line  warning D9035: option 'clr:pure' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : command line  warning D9035: option 'clr:pure' has been deprecated and will be removed in a future release
+  AssemblyInfo.cpp
+  ElectrodeControl.cpp
+  Generating Code...
+cl : command line  warning D9035: option 'clr:pure' has been deprecated and will be removed in a future release
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+LINK : fatal error LNK1104: cannot open file 'MSVCURT.LIB'

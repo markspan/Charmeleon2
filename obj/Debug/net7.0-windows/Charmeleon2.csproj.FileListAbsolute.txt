@@ -23,3 +23,5 @@ C:\Users\P154492\Documents\GitHub\Charmeleon2\bin\Debug\net7.0-windows\RtDeviceD
 C:\Users\P154492\Documents\GitHub\Charmeleon2\bin\Debug\net7.0-windows\Electrode.pdb
 C:\Users\P154492\Documents\GitHub\Charmeleon2\bin\Debug\net7.0-windows\RtDeviceDriver.pdb
 C:\Users\P154492\Documents\GitHub\Charmeleon2\bin\Debug\net7.0-windows\heat.map
+C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Debug\net7.0-windows\Charmeleon2.Libs.Charmeleon.Electrode.ElectrodeControl.resources
+C:\Users\P154492\Documents\GitHub\Charmeleon2\obj\Debug\net7.0-windows\Charmeleon2.Libs.Charmeleon.Electrode.HeatMap.resources

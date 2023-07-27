@@ -1,0 +1,4 @@
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\Electrode\x64\Debug\Electorode.vcxproj.AssemblyReference.cache
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\Electrode\x64\Debug\Electrode.ElectrodeControl.resources
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\Electrode\x64\Debug\Electorode.vcxproj.GenerateResource.cache
+C:\Users\P154492\Documents\GitHub\Libs\Charmeleon\Electrode\x64\Debug\Electorode.vcxproj.CopyComplete
